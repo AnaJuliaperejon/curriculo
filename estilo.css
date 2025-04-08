@@ -1,0 +1,80 @@
+body{
+    font-size: 16px;
+}
+
+header{
+    display:flex; /* dfinir o meu layout flexivel para eu alterar os elementos*/
+    align-items: center; /*alinhas os itens verticalemnte ao centeo*/
+    justify-content: space-between;
+    background-color: rgb(182, 195, 252);
+}
+header .profile img{
+    width:125px;
+    height: 120px;
+    border-radius:50%;
+    padding: 20%;
+
+}
+
+header .links a{
+    text-decoration: none;
+    color: rgb(27, 26, 111);
+    font-weight: bold;
+    margin: 0 10px;
+    
+}
+.descricao{
+    text-align: center;/*centraliza texto*/
+   margin:20px;
+}
+.conteudo{
+    display:flex;
+    justify-content: space-around;
+    margin:20px
+}
+.bloco{
+    width: 30%;
+    background-color:rgb(215, 224, 255);
+    padding:15px;
+    border:1px solid hsl(235, 90%, 88%);
+    border-radius: 1px;
+    text-align: center;
+}
+.falacmgbb{
+    text-align: center;
+    margin: 20px;
+}
+form{
+    display: inline-block;
+    text-align: left;
+}
+form label{
+    display: block;
+    margin: 5px 0;
+}
+form input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid hsl(235, 90%, 88%);
+    border-radius: 8px;
+}
+form button{
+    background-color: rgb(240, 243, 255);
+    border: 1px solid hsl(235, 90%, 88%);
+    border-radius: 8px;
+   
+}
+.canal{
+    display:flex;
+    justify-content: space-around;
+    margin:20px
+}
+.blocos{
+    width: 30%;
+    background-color:rgb(215, 224, 255);
+    padding:15px;
+    border:1px solid hsl(235, 90%, 88%);
+    border-radius: 1px; 
+    text-align: center;
+}
