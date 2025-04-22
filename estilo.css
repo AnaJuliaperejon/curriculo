@@ -1,3 +1,11 @@
+*{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+ }
+      
+
 body{
     font-size: 16px;
 }
@@ -21,8 +29,18 @@ header .links a{
     color: rgb(27, 26, 111);
     font-weight: bold;
     margin: 0 10px;
+    font-family: "Gabriela";
     
 }
+
+h2{
+    
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+      
+    
 .descricao{
     text-align: center;/*centraliza texto*/
    margin:20px;
